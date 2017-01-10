@@ -42,7 +42,7 @@ time.sleep(1)
 driver.get("https://www.facebook.com/messages")
 driver.implicitly_wait(100)
 
-“””IMPORTANT  60 minutes given for you to reveal all of your messages in older threads”””
+"""IMPORTANT  60 minutes given for you to reveal all of your messages in older threads"""
 time.sleep(60)
 
 elements = driver.find_elements_by_css_selector("a._k_")
